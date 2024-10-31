@@ -1,7 +1,9 @@
-#CSD460-Capstone
+# CSD460-Capstone
 
-* Collaborators:
-**Jacob Ambrose
-**Jackie Scott
-**Marissa Lee
-**Professor Sue Sampson
+A hotel reservation website where guests can login, register for free accounts, and book stays. 
+
+## Collaborators:
+* Jacob Ambrose
+* Jackie Scott
+* Marissa Lee
+* Professor Sue Sampson
