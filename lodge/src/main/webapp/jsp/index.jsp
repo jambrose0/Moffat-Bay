@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Moffat Bay Lodge</title>
-    <link rel="stylesheet" href="">
+<%--    <link rel="stylesheet" href="styles.css">--%>
 </head>
 <body>
 <%@include file="NavBar.jsp"%>
