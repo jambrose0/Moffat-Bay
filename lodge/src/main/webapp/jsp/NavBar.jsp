@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moffat Bay Lodge</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 <div class="header">
@@ -16,7 +16,6 @@
     <ul class="navbar">
         <li class="line"><a href="index.jsp">Home</a></li>
         <li><a href="About.jsp">About</a></li>
-        <li><a href="Contact.jsp">Contact Us</a></li>
         <li><a href="Attractions.jsp">Attractions</a></li>
         <li><a href="Login.jsp">Login</a></li>
         <li><a href="Register.jsp">Register</a></li>
