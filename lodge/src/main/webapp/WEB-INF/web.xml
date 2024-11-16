@@ -9,22 +9,26 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  
- <context-param>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>lodge.servlets.LoginServlet</servlet-class>
+    <init-param>
+      <param-name>jdbcDriver</param-name>
+      <param-value>com.mysql.cj.jdbc.Driver</param-value>
+    </init-param>
+    <init-param>
   <param-name>dbName</param-name>
   <param-value>jdbc:mysql://localhost:3306/moffat_bay_lodge</param-value>
-</context-param>
-<context-param>
+    </init-param>
+    <init-param>
   <param-name>dbUser</param-name>
   <param-value>lodgeAdmin</param-value>
-</context-param>
-<context-param>
+    </init-param>
+    <init-param>
   <param-name>dbPass</param-name>
   <param-value>moffat2024</param-value>
-</context-param>
-  <context-param>
-  <param-name>jdbcDriver</param-name>
-  <param-value>com.mysql.cj.jdbc.Driver</param-value>
-</context-param>
+    </init-param>
+
+  </servlet>
 
 </web-app>

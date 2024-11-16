@@ -2,7 +2,7 @@ package lodge.model;
 
 public interface Provider {
     String Driver = "";
-    String dbUrl = "";
+    String dbName = "";
     String dbUser = "";
     String dbPass = "";
 }
