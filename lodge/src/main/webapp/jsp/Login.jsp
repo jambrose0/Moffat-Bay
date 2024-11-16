@@ -1,18 +1,36 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jambr
-  Date: 11/12/2024
-  Time: 9:40 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.sql.*, lodge.model.Provider" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <%@include file="NavBar.jsp"%>
-<h2>Welcome to the Login Page</h2>
-<p>Please pardon us this page is still under construction!</p>
+<div class="login-page">
+<div class="login-header">
+    <h2>Login</h2>
+    <%
+        String profile_msg = (String)request.getAttribute("profile_msg");
+        if(profile_msg != null) {
+            out.print(profile_msg);
+        }
+        String login_msg = (String)request.getAttribute("login_msg");
+        if(login_msg != null) {
+            out.print(login_msg);
+        }
+    %>
+</div>
+<div class="login-form">
+    <form action="loginProcess.jsp" method="post">
+        <label for="email">Email</label><br>
+        <input type="text" placeholder="Enter Email" name="email" required> <br>
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="Enter Password" name ="password" required> <br>
+        <button type="submit" class="submitBtn">Login</button>
+    </form>
+</div>
+</div>
 </body>
 </html>
