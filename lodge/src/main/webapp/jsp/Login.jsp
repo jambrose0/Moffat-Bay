@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/login_styles.css">
 </head>
 <body>
 <%@include file="NavBar.jsp"%>
