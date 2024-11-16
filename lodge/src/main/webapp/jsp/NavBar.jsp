@@ -28,7 +28,7 @@
         <%
         } else {
         %>
-        <!-- User is not logged in, show "Login" and "Register" -->
+        <!-- Future feature: User is not logged in, show "Login" and "Register" -->
         <li><a href="Login.jsp">Login</a></li>
         <li><a href="Register.jsp">Register</a></li>
         <%
