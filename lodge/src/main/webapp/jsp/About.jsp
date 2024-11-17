@@ -12,7 +12,7 @@
 </head>
 <body>
 <%@include file="NavBar.jsp"%>
-<h2>Welcome to the About Us Page</h2>
-<p>Please pardon us this page is still under construction!</p>
+<h2>About Moffat Bay</h2>
+<p>Located on Joviedsa Island, Moffat Bay Lodge and Marina offer you the perfect opportunity to get away. With enchanting outdoor attractions, comfortable lodging, and affordable prices, Moffat Bay Lodge is the perfect place to relax and unwind. Book your reservation today!</p>
 </body>
 </html>
