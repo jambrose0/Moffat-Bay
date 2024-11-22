@@ -2,7 +2,7 @@
 <%@ page import="java.sql.*" %>
 <%
     // Database connection parameters
-    String jdbcUrl = "jdbc:mysql://localhost:3306/moffat_bay_lodge?useSSL=false&serverTimezone=UTC";
+    String jdbcUrl = "jdbc:mysql://localhost:3306/moffat_bay_lodge?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "lodgeAdmin";
     String dbPassword = "moffat2024";
 %>
