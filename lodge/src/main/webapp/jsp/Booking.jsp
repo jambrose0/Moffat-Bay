@@ -239,42 +239,8 @@ body {
 		if (isFormValid && datesValid) {
 			alert("Proceeding with form submission")
 			event.target.submit();
-
 		}
 		}
 		</script>
 </body>
 </html>
-
-<!-- 		<table class=bookingTable>
-			<tr>
-				<td>Room type</td>
-				<td><select name="roomType">
-						<option value="doubleFull">Select a room</option>
-						<option value="doubleFull">Double Full Beds: $126.00 per
-							night</option>
-						<option value="singleQueen">Single Queen Bed: $141.75 per
-							night</option>
-						<option value="doubleQueen">Double Queen Beds: $157.50
-							per night</option>
-						<option value="singleKing">Single King Bed: $168.00 per
-							night</option>
-				</select></td>
-			</tr>
-			<tr>
-				<td>Number of Guests</td>
-				<td><input type="number" name="adultCount" placeholder="Number of Adults"></td>
-				<td><input type="number" name="childCount" placeholder="Number of Children"></td>
-			</tr>
-			<tr>
-				<td>Check-in Date</td>
-				<td><input type="date" id="checkInDate" name="checkInDate"></td>
-				<td>Check-Out Date</td>
-				<td><input type="date" id="checkOutDate" name="checkOutDate"></td>
-			</tr>
-			<tr>
-			<td colspan='6'> 
-					<input class='submitBtn' type="submit" value='Review Booking'>
-		</td>
-			</tr>
-		</table> -->
