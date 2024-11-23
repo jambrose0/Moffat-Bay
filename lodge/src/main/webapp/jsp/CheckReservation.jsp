@@ -1,18 +1,37 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jambr
-  Date: 11/12/2024
-  Time: 9:41 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Review Reservation</title>
 </head>
 <body>
 <%@include file="NavBar.jsp"%>
-<h2>Welcome to the Check Reservation Page</h2>
-<p>Please pardon us this page is still under construction!</p>
+<div class='reservationDetails'>
+<h2>Reservation Summary</h2>
+<table border='1' cellpadding='10' cellspacing='0'>
+<tr> 
+<th>Room Type
+<td> <%=request.getParameter("roomType") %></td>
+</tr>
+<tr>
+<th>Number of Adults</th>
+<td><%=request.getParameter("adultCount") %></td>
+</tr>
+<tr>
+<th>Number of Children</th>
+<td><%=request.getParameter("childCount")%></td>
+</tr>
+<tr>
+<th>Check-In Date </th>
+<td><%= request.getParameter("checkInDate") %></td>
+</tr>
+<tr>
+<th>Check-Out Date</th>
+<td><%=request.getParameter("checkOutDate") %></td>
+</tr>
+</table>
+
+</div>
+
 </body>
 </html>

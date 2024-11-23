@@ -4,7 +4,7 @@
     --moffat-sand: #6F5E4B;
     --moffat-white: #FBFBFC;
     --moffat-tan: #9C8F85;
-    --primary-color: aquamarine;
+    -moffat-background: #F6F6E9;
 }
 
 @font-face {
@@ -106,4 +106,12 @@ body {
     height: 105px;
     align-items: center;
 }
+/* Room Reservation Page */
+.bookingPage {
+	background-color: var(--moffat-background);
+}
+.bookingPage h2 {
+	font-size: 100px;
+}
+
 
