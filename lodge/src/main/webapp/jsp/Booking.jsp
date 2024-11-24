@@ -12,7 +12,7 @@
 	--moffat-sand: #6F5E4B;
 	--moffat-white: #FBFBFC;
 	--moffat-tan: #9C8F85;
-	-moffat-background: #F6F6E9;
+	--moffat-background: #F6F6E9;
 }
 
 @font-face {

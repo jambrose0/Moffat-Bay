@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,17 +6,28 @@ body {
 }
 
 nav {
-    width: 100%; /* Ensure the navbar spans the full width */
-    background-color: #333; /* Example: dark background for the navbar */
+    width: 100%; Ensure the navbar spans the full width
+    background-color: #333; Example: dark background for the navbar
     color: white;
-    padding: 10px; /* Adjust as needed for spacing */
-    position: fixed; /* Keep it at the top */
+    padding: 10px; Adjust as needed for spacing
+    position: fixed; Keep it at the top
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensure it's above other elements */
+    z-index: 1000; Ensure it's above other elements
 }
-
-.container {
+ */
+ :root {
+	--moffat-mocha: #503827;
+	--moffat-green: #476561;
+	--moffat-sand: #6F5E4B;
+	--moffat-white: #FBFBFC;
+	--moffat-tan: #9C8F85;
+	--moffat-background: #F6F6E9;
+}
+body {
+	background-color: var(--moffat-background);
+}
+.contactContainer {
     display: flex;
     flex-direction: column; /* Stack sections vertically */
     width: 50%; /* Adjust width as needed */

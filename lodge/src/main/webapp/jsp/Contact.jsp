@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="/lodge/css/contact.css">
 </head>
 <body>
-    <%@include file="NavBar.jsp"%>
 
-    <div class="container">
+    <div class="contactContainer">
         <!-- Form Section -->
         <div class="form-section">
             <h2>Have a question? Send us a message, and we'll respond as soon as possible.</h2>
