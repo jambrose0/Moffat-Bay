@@ -9,6 +9,8 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+
+  <!-- Existing LoginServlet configuration -->
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
     <servlet-class>lodge.servlets.LoginServlet</servlet-class>
@@ -17,18 +19,30 @@
       <param-value>com.mysql.cj.jdbc.Driver</param-value>
     </init-param>
     <init-param>
-  <param-name>dbName</param-name>
-  <param-value>jdbc:mysql://localhost:3306/moffat_bay_lodge</param-value>
+      <param-name>dbName</param-name>
+      <param-value>jdbc:mysql://localhost:3306/moffat_bay_lodge</param-value>
     </init-param>
     <init-param>
-  <param-name>dbUser</param-name>
-  <param-value>lodgeAdmin</param-value>
+      <param-name>dbUser</param-name>
+      <param-value>lodgeAdmin</param-value>
     </init-param>
     <init-param>
-  <param-name>dbPass</param-name>
-  <param-value>moffat2024</param-value>
+      <param-name>dbPass</param-name>
+      <param-value>moffat2024</param-value>
     </init-param>
-
   </servlet>
+
+  <!-- New ContactUs servlet configuration -->
+ <servlet>
+    <servlet-name>Contactus</servlet-name>
+    <servlet-class>lodge.beans.Contactus</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Contactus</servlet-name>
+    <url-pattern>/Contactus</url-pattern>
+</servlet-mapping>
+ 
+ 
 
 </web-app>
