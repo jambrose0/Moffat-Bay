@@ -17,7 +17,7 @@
         <li class="line"><a href="index.jsp">Home</a></li>
         <li><a href="About.jsp">About</a></li>
         <li><a href="Attractions.jsp">Attractions</a></li>
-        <li><a href="Contact.jsp">Contact Us</a></li>
+        <!-- <li><a href="Contact.jsp">Contact Us</a></li> -->
 
         <%-- Check if user is logged in --%>
         <%
