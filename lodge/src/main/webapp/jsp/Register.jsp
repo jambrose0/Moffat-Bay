@@ -25,7 +25,7 @@
 
         body {
             font-family: 'Coco Gothic', Arial, sans-serif;
-            background-image: url('/Moffat-Bay/images/registration_bg.png');
+            background-image: url('/lodge/images/registration_bg.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
