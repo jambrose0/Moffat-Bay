@@ -34,17 +34,9 @@
 
 
   <!-- New ContactUs servlet configuration -->
- <servlet>
-    <servlet-name>Contactus</servlet-name>
-    <servlet-class>lodge.beans.Contactus</servlet-class>
-</servlet>
-
-<servlet-mapping>
-    <servlet-name>Contactus</servlet-name>
-    <url-pattern>/Contactus</url-pattern>
-</servlet-mapping>
-
+ <!-- 
+ Removed unnecesariy xml import as declared in the Contactus.java file
  
- 
+  -->
 
 </web-app>
