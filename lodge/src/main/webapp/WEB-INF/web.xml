@@ -33,6 +33,17 @@
   </servlet>
 
 
+  <!-- New ContactUs servlet configuration -->
+ <servlet>
+    <servlet-name>Contactus</servlet-name>
+    <servlet-class>lodge.beans.Contactus</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Contactus</servlet-name>
+    <url-pattern>/Contactus</url-pattern>
+</servlet-mapping>
+
  
  
 
