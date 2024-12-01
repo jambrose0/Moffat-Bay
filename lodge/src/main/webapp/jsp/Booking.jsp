@@ -152,7 +152,7 @@ body {
 	<%@include file="NavBar.jsp"%>
 	<div class="bookingPage">
 		<h2>Book a Room</h2>
-		<form action="CheckReservation.jsp" method="post"
+		<form action="ReservationSummary.jsp" method="post"
 			onsubmit="return submitForm(event)">
 			<!-- Room Type -->
 			<div class="formGroup">
