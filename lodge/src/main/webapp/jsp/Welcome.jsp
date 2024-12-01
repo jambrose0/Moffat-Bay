@@ -13,7 +13,7 @@
     <h3>Welcome To</h3>
     <h1>Moffat Bay Lodge</h1>
     <div class="landingLogo">
-      <img src="../images/lodge-icon.png">
+      <img src="../images/landing-fish.png">
     </div>
   </div>
 </div>
