@@ -1,6 +1,12 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<%@page%>
+<%@ page import="jakarta.servlet.*" %>
+<%@ page import="jakarta.servlet.http.*" %>
+<% 
+    if (session == null || session.getAttribute("loggedIn") == null || !(Boolean) session.getAttribute("loggedIn")) {
+        response.sendRedirect("Login.jsp");
+        return;
+    }
+%>
 <html>
 <head>
 <title>Book a Room</title>

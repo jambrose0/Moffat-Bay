@@ -70,6 +70,7 @@ public boolean login(String email, String password) {
         Connection con = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
+        
         try {
             con = getConnection();
             String sql = "select * from guests where email = ? and password = ?";
@@ -101,5 +102,31 @@ public boolean login(String email, String password) {
             }
         }
         return checkUser;
+}
+//Fetch guest_id from the database using email ADDED
+public Integer fetchGuestId(String email) {
+    Integer guestId = null;
+    Connection con = null;
+    PreparedStatement ps = null;
+    ResultSet rs = null;
+
+    try {
+        con = getConnection();
+        String sql = "SELECT guest_id FROM guests WHERE email = ?";
+        ps = con.prepareStatement(sql);
+        ps.setString(1, email);
+
+        rs = ps.executeQuery();
+        if (rs.next()) {
+            guestId = rs.getInt("guest_id"); // Retrieve guest_id
+        }
+    } catch (SQLException e) {
+        log.log(Level.SEVERE, "Error fetching guest ID", e);
+    } finally {
+        if (rs != null) try { rs.close(); } catch (SQLException e) { }
+        if (ps != null) try { ps.close(); } catch (SQLException e) { }
+        putConnection(con);
+    }
+    return guestId;
 }
 } // end of class bracket
