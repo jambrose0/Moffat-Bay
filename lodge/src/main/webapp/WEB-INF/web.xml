@@ -32,6 +32,7 @@
     </init-param>
   </servlet>
 
+
   <!-- New ContactUs servlet configuration -->
  <servlet>
     <servlet-name>Contactus</servlet-name>
@@ -42,6 +43,7 @@
     <servlet-name>Contactus</servlet-name>
     <url-pattern>/Contactus</url-pattern>
 </servlet-mapping>
+
  
  
 
