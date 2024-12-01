@@ -1,4 +1,4 @@
-:root{
+:root {
     --moffat-mocha: #503827;
     --moffat-green: #476561;
     --moffat-sand: #6F5E4B;
@@ -10,12 +10,16 @@
 @font-face {
     font-family: catchyMager;
     src: local("catchy_mager"),
-    url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
-    url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
+         url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
+         url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
+}
+
+@font-face {
     font-family: Coco Gothic;
     src: local("coco_gothic"),
-    url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype")
+         url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype");
 }
+
 body, p, ul, li {
     margin: 0;
     padding: 0;
@@ -65,11 +69,12 @@ body {
     color: black;
 }
 
-/*landing Page Styling*/
+/* Landing Page Styling */
 .lander {
     height: 100%;
     padding: 10px;
 }
+
 .lander::before {
     content: "";
     position: absolute;
@@ -83,28 +88,36 @@ body {
     opacity: 0.65;
     z-index: -1;
 }
+
 .welcome {
     text-align: center;
-    /*margin: 10px;*/
-    /*border: 10px;*/
     padding: 5px;
     font-family: catchyMager;
     color: var(--moffat-white);
 }
+
 .welcome h3 {
     font-size: 65px;
     color: var(--moffat-mocha);
-
 }
+
 .welcome h1 {
     font-size: 115px;
-    text-shadow: 2px 2px var(--moffat-mocha) ;
+    text-shadow: 2px 2px var(--moffat-mocha);
 }
 
 .landingLogo img {
-    width: 105px;
+    width: 300px;
     height: 105px;
-    align-items: center;
 }
+
+
+
+
+
+
+
+
+
 
 
