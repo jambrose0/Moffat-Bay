@@ -1,0 +1,151 @@
+:root{
+    --moffat-mocha: #503827;
+    --moffat-green: #476561;
+    --moffat-sand: #6F5E4B;
+    --moffat-white: #FBFBFC;
+    --moffat-tan: #9C8F85;
+    --moffat-background: #F6F6E9;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: catchyMager;
+    src: local("catchy_mager"),
+    url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
+    url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
+    font-family: Coco Gothic;
+    src: local("coco_gothic"),
+    url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype")
+}
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+	font-size: 100px;
+}
+.search_container {
+	background-color: var(--moffat-background);
+	padding:  40px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	width: 100%
+	max-width: 500px;
+	height: 100%;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 28px;
+	color: var(--moffat-sand);
+	margin-bottom: 20px;
+}
+.search-box {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.search-box input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}	
+.search-box span {
+	text-align: center;
+	color: var(--moffat-sand);
+	margin: 10px 0;
+	
+}
+.form-group {
+	margin-bottom: 15px;
+}	
+label {
+	display: block;
+	color: var(--moffat-mocha);
+	margin-bottom: 5px;
+	
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"]
+  {
+	width: 100%;
+	padding: 10px;
+ border-radius: 4px;
+}
+
+.search-btn {
+	width: 100%;
+	padding: 12px;
+	background-color: var(--moffat-green);
+	color: var(--moffat-white);
+	font-size: 16px;
+	border: none;
+	borer-radius: 4px;
+	cursor: pointer;
+}
+.search-btn:hover {
+	background-color: var(--moffat-mocha);
+	color: var(--moffat-white);
+}
+
+.resDetails {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: var(--moffat-white);
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.resDetails h3 {
+	text-align: center;
+	color: var(--moffat-mocha);
+	margin-bottom: 20px;
+}
+.resDetails div {
+	font-size: 16px;
+	color: var(--moffat-tan);
+	margin-bottom: 10px;
+}
+.resDetails label {
+	font-weight: bold;
+}
+.guests {
+	display: flex;
+	gap: 20px
+}
+.guest-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

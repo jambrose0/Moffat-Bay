@@ -33,7 +33,10 @@
   </servlet>
 
 
+  <!-- New ContactUs servlet configuration -->
+ <!-- 
+ Removed unnecesariy xml import as declared in the Contactus.java file
  
- 
+  -->
 
 </web-app>

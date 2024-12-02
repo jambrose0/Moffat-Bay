@@ -18,7 +18,7 @@
 	--moffat-sand: #6F5E4B;
 	--moffat-white: #FBFBFC;
 	--moffat-tan: #9C8F85;
-	-moffat-background: #F6F6E9;
+	--moffat-background: #F6F6E9;
 }
 
 @font-face {
@@ -152,7 +152,7 @@ body {
 	<%@include file="NavBar.jsp"%>
 	<div class="bookingPage">
 		<h2>Book a Room</h2>
-		<form action="CheckReservation.jsp" method="post"
+		<form action="ReservationSummary.jsp" method="post"
 			onsubmit="return submitForm(event)">
 			<!-- Room Type -->
 			<div class="formGroup">
