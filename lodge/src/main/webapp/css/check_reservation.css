@@ -1,4 +1,4 @@
-:root{
+	 :root{
     --moffat-mocha: #503827;
     --moffat-green: #476561;
     --moffat-sand: #6F5E4B;
@@ -38,7 +38,7 @@ h2 {
 	padding:  40px;
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-	width: 100%;
+	width: 100%
 	max-width: 500px;
 	height: 100%;
 	
