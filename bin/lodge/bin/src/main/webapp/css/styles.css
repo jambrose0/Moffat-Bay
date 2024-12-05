@@ -1,0 +1,109 @@
+:root{
+    --moffat-mocha: #503827;
+    --moffat-green: #476561;
+    --moffat-sand: #6F5E4B;
+    --moffat-white: #FBFBFC;
+    --moffat-tan: #9C8F85;
+    --primary-color: aquamarine;
+}
+
+@font-face {
+    font-family: catchyMager;
+    src: local("catchy_mager"),
+    url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
+    url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
+    font-family: Coco Gothic;
+    src: local("coco_gothic"),
+    url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype")
+}
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: var(--moffat-tan);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--moffat-white);
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    font-family: "Coco Gothic";
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: var(--moffat-white);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: var(--moffat-green);
+    border-radius: 5px;
+    color: black;
+}
+
+/*landing Page Styling*/
+.lander {
+    height: 100%;
+    padding: 10px;
+}
+.lander::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/mountain-lounge.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    opacity: 0.65;
+    z-index: -1;
+}
+.welcome {
+    text-align: center;
+    /*margin: 10px;*/
+    /*border: 10px;*/
+    padding: 5px;
+    font-family: catchyMager;
+    color: var(--moffat-white);
+}
+.welcome h3 {
+    font-size: 65px;
+    color: var(--moffat-mocha);
+
+}
+.welcome h1 {
+    font-size: 115px;
+    text-shadow: 2px 2px var(--moffat-mocha) ;
+}
+
+.landingLogo img {
+    width: 105px;
+    height: 105px;
+    align-items: center;
+}
+

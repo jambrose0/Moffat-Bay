@@ -1,0 +1,316 @@
+[33mcommit ea8287ed204b91532ca9a909d87e78d72185ce51[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlookUpPage[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 0ec599e b3eb024
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Sun Dec 1 10:19:48 2024 -0500
+
+    Merge pull request #17 from jambrose0/Lee_M9
+    
+    Marissa Lee branch
+
+[33mcommit b3eb024dbba91906b3801229a42d2a307436d5f6[m
+Merge: 183db9e 0ec599e
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Sun Dec 1 10:19:35 2024 -0500
+
+    Merge branch 'main' into Lee_M9
+
+[33mcommit 183db9e3d23e6798278f653b521b567440b9436a[m
+Author: mkell6 <107006534+mkell6@users.noreply.github.com>
+Date:   Sat Nov 30 21:40:45 2024 -0600
+
+    Fixed Booking process to be logged in. Fixed confirmation number.
+
+[33mcommit 0ec599ed4dd8aec72378bdce8bea8fc24c81b0f1[m
+Merge: 59087ef b41bb62
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Sun Nov 24 13:13:23 2024 -0500
+
+    Merge pull request #16 from jambrose0/aboutContactCombination
+    
+    moved contact us page from seperate page to combined with about us pa…
+
+[33mcommit b41bb626da2d1188021bbf511c0779262c0e8294[m[33m ([m[1;31morigin/aboutContactCombination[m[33m, [m[1;32maboutContactCombination[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Sun Nov 24 13:07:38 2024 -0500
+
+    moved contact us page from seperate page to combined with about us page. Updated background color to match the book a room background color, and refactored unused code
+
+[33mcommit 59087ef73c9e25fd9ec32e59f161d18716415b7b[m
+Merge: 6e269a0 98891b2
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 24 11:34:50 2024 -0600
+
+    Merge pull request #15 from jambrose0/csscontact
+    
+    css page for contact
+
+[33mcommit 98891b2203be6a81fa87dafaf03c0647e4693297[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 24 11:34:11 2024 -0600
+
+    css page for contact
+
+[33mcommit 6e269a03fd8acecbadb326ef099b11418bc11f3b[m
+Merge: a5365a0 522557c
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 24 11:31:04 2024 -0600
+
+    Merge pull request #14 from jambrose0/contactus
+    
+    contact page jsp file
+
+[33mcommit 522557c72c28d26877ce0f1a75d6baeb7927b759[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 24 01:21:03 2024 -0600
+
+    contact page jsp file
+
+[33mcommit a5365a080b13f9cb8f7b156af53431da72e45984[m
+Merge: e4c6721 f9d9eb9
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 24 01:05:10 2024 -0600
+
+    Merge pull request #10 from jambrose0/contactus
+    
+    add contact us page
+
+[33mcommit f9d9eb95711131ea7e8febedb757ec4215d2e584[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 24 01:04:22 2024 -0600
+
+    add contact us page and a java page to pass info to database. will need
+    to create table in DB
+
+[33mcommit e4c6721781cf35953fa0cf063b5117da2e51652c[m
+Merge: dfd6ed5 924da29
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sat Nov 23 23:31:29 2024 -0600
+
+    Merge pull request #9 from jambrose0/about
+    
+    fixed picture and formatting
+
+[33mcommit 924da29a419dc93abc44a37e313a5cb5cdf50714[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sat Nov 23 22:35:40 2024 -0600
+
+    fixed picture and formatting
+
+[33mcommit dfd6ed5214b61cf09eeb2d01960805df977b5282[m
+Author: mkell6 <107006534+mkell6@users.noreply.github.com>
+Date:   Sat Nov 23 18:29:07 2024 -0600
+
+    CheckReservation page complete and working. Added SQL dependency to pom
+
+[33mcommit cafe1569422270b775ed0ff340ad9074e5069f94[m
+Merge: 2d28513 2f09aa9
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Sat Nov 23 12:49:16 2024 -0500
+
+    Merge pull request #8 from jambrose0/reservation-styling
+    
+    Reservation styling and updated form validation
+
+[33mcommit 2f09aa9bb4fd673498be3b1fb11d6ef0830028a1[m[33m ([m[1;31morigin/reservation-styling[m[33m, [m[1;32mreservation-styling[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Sat Nov 23 12:48:25 2024 -0500
+
+    refactored unnecessary code from page
+
+[33mcommit 63a5bb92f72e60e69599e016abcf469a7a08399e[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Sat Nov 23 12:47:00 2024 -0500
+
+    completed styling changes for form to match prototype. Updated form validation to ensure that all aspects of the form are completed before on submitting to reservation summary page
+
+[33mcommit 2d28513fc0af18549cee8ab8b86d14b805af6423[m
+Merge: 378907e 08a7693
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Sat Nov 23 11:38:29 2024 -0500
+
+    Merge pull request #7 from jambrose0/reservation-page
+    
+    initial reservation booking and checkreservation setup is complete.
+
+[33mcommit 08a76936d096d46044e2fe65815f65907e6f3c9d[m[33m ([m[1;31morigin/reservation-page[m[33m, [m[1;32mreservation-page[m[33m, [m[1;32mabout[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Thu Nov 21 20:34:04 2024 -0500
+
+    initial reservation booking and checkreservation setup is complete. INformation passes between the two pages, styling and more backend items needed.
+
+[33mcommit 378907ee1691982017a13eda2be04a5fbd9a7ba4[m
+Author: mkell6 <107006534+mkell6@users.noreply.github.com>
+Date:   Sun Nov 17 18:36:17 2024 -0600
+
+    Add files via upload
+
+[33mcommit 6309bee230255197447a737991595852a633bd18[m
+Author: mkell6 <107006534+mkell6@users.noreply.github.com>
+Date:   Sun Nov 17 18:34:47 2024 -0600
+
+    Add files via upload
+
+[33mcommit c692b1c5e2bff835db931f3ca8d04f112bd94dfe[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 17 14:39:29 2024 -0600
+
+    Update About.jsp
+    
+    adding pic
+
+[33mcommit 95e0368d4bdbad6eb8e209e71c55b8fccfcdb009[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 17 14:37:15 2024 -0600
+
+    Update About.jsp
+    
+    added heading and about paragraph
+
+[33mcommit b81b9301a4fc61f8294835178fdd6a0fee0a9539[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Sun Nov 17 14:34:26 2024 -0600
+
+    Add files via upload
+    
+    adding about page image
+
+[33mcommit e2f0f0da594b3f393274b18a0de4d34ab69e5ca4[m[33m ([m[1;32mloginPage_v2[m[33m)[m
+Merge: 20ccf0d 91401c1
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Sat Nov 16 16:35:34 2024 -0500
+
+    Merge pull request #6 from jambrose0/loginPage_v2
+    
+    Ambrose:Reverted back to commit, lost css styling in pull requests. Seperated login page styling to seperate css file, styling now functional and login features still operable
+
+[33mcommit 91401c1fbf79a67457ea0e5491b8d6db376ea4a8[m[33m ([m[1;31morigin/loginPage_v2[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Sat Nov 16 16:19:15 2024 -0500
+
+    Ambrose:Reverted back to commit, lost css styling in pull requests. Seperated login page styling to seperate css file, styling now functional and login features still operable
+
+[33mcommit 20ccf0d9bc1b86c88d9bf44d8fff876fdfbc72f8[m
+Merge: 182acc7 d8baf21
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Fri Nov 15 21:58:55 2024 -0500
+
+    Merge pull request #5 from jambrose0/landingPage
+    
+    Landing page
+
+[33mcommit d8baf219865d9cbbf8e78bd50e8c81d1b5dd2d89[m[33m ([m[1;31morigin/landingPage[m[33m, [m[1;32mlandingPage[m[33m)[m
+Merge: ca6ddd9 182acc7
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Fri Nov 15 21:57:32 2024 -0500
+
+    Merge branch 'main' into landingPage
+    
+    # Conflicts:
+    #       lodge/src/main/webapp/jsp/styles.css
+
+[33mcommit 182acc7a19ff7dfcd16c86802454027b71afc275[m
+Merge: d953e72 c2a770d
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Fri Nov 15 21:52:24 2024 -0500
+
+    Merge pull request #4 from jambrose0/login-page
+    
+    Login page
+
+[33mcommit ca6ddd904b7776545f6e239c70afef1570dc3363[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Fri Nov 15 21:50:22 2024 -0500
+
+    Ambrose:Moved css back into css directory, added images to test background of landing page, landing page is operational and stylized. Removed contact us from navbar and jsp directory due to change in client requests, moving contact us into about us page.
+
+[33mcommit c83887cdc1d8bf03eb98cfcd8921f5b92c745a19[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Fri Nov 15 21:50:08 2024 -0500
+
+    Ambrose:Moved css back into css directory, added images to test background of landing page, landing page is operational and stylized. Removed contact us from navbar and jsp directory due to change in client requests, moving contact us into about us page.
+
+[33mcommit c2a770d5f3390c8dcce6b69c26261e9e3cdb57f8[m[33m ([m[1;31morigin/login-page[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Fri Nov 15 19:57:27 2024 -0500
+
+    Ambrose:Added new files to provider server context and pass info through web.xml. Further tinkering needed
+
+[33mcommit c29b4a3fae82c421971ff14a4ebcff7a18420449[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Thu Nov 14 21:36:56 2024 -0500
+
+    Ambrose:Login page is functional. Will review and sign users in if they are valid users in the database. Next steps to ensure that users are saved in their session and that the navbar reflects "logged in"
+
+[33mcommit 446a018013abace8d2e89dee8f67823abb69bc74[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Wed Nov 13 19:58:40 2024 -0500
+
+    Ambrose: Login page styling is created. Working on backend functionality
+
+[33mcommit d953e7256e5c04d8f638195791b774b86b7f2654[m
+Merge: 6793034 adb2311
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Wed Nov 13 17:35:48 2024 -0500
+
+    Merge pull request #3 from jambrose0/navbar-styling
+    
+    Ambrose: Styling with Moffat Bay colors is added. Next is login funct…
+
+[33mcommit adb231145933cc1d8f55ddc0a210427a9401c86f[m[33m ([m[1;31morigin/navbar-styling[m[33m, [m[1;32mnavbar-styling[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Wed Nov 13 17:35:00 2024 -0500
+
+    Ambrose: Styling with Moffat Bay colors is added. Next is login functionality
+
+[33mcommit 67930343a45fad017c7457ee3e40720106800a4e[m
+Merge: d6cc786 db1b553
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Tue Nov 12 22:06:14 2024 -0500
+
+    Merge pull request #2 from jambrose0/navbar
+    
+    Navbar
+
+[33mcommit db1b553d339f53efcdcb4bf21ca427451cc1a84d[m[33m ([m[1;31morigin/navbar[m[33m, [m[1;32mnavbar[m[33m)[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Tue Nov 12 22:03:45 2024 -0500
+
+    removed IDE settings folder and added file from meta-inf directory that was missing
+
+[33mcommit 7fd5c0b3fad137edba494ecb86549d2197c48cc3[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Tue Nov 12 21:49:50 2024 -0500
+
+    Ambrose: Added basic navbar component and all base JSP files. Linking between pages is operational. Basic project setup with IDE.
+
+[33mcommit d6cc7864eb7735871766b03a9a5d4e232f4730d5[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Tue Nov 12 19:47:40 2024 -0500
+
+    Ambrose: added IDE settings directory to gitignore
+
+[33mcommit 683fff92bc350d47695b5842c796c41620167421[m
+Author: jackie scott <142774146+jackies91@users.noreply.github.com>
+Date:   Tue Nov 5 22:13:12 2024 -0600
+
+    Add files via upload
+    
+    We need to each add our 3 entries, alter the room table info to make sense in reference to the data in the bookings table on how many guests are staying in the room
+
+[33mcommit 7eecbfdc769f8f2c69a1d466a73614aacc187634[m
+Author: Jacob Ambrose <jambrose0518@gmail.com>
+Date:   Thu Oct 31 12:08:34 2024 -0400
+
+    Ambrose: Updated ReadMe, cloned project onto desktop
+
+[33mcommit 43bd79822a1bd9224ed95b6bc1200cecd68d8554[m
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Fri Oct 25 09:10:40 2024 -0400
+
+    Create README.md
+
+[33mcommit cbef11ac249c61c35deabf632f1970f3655df4cd[m
+Author: jambrose0 <95590244+jambrose0@users.noreply.github.com>
+Date:   Fri Oct 25 08:47:00 2024 -0400
+
+    Initial commit

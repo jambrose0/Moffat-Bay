@@ -13,16 +13,18 @@
     <div class="logo">
         <h1>Moffat Bay Lodge</h1>
     </div>
+
     <ul class="navbar">
         <li class="line"><a href="index.jsp">Home</a></li>
         <li><a href="About.jsp">About</a></li>
         <li><a href="Attractions.jsp">Attractions</a></li>
-        <!-- <li><a href="Contact.jsp">Contact Us</a></li> -->
+         <li><a href="Contact.jsp">Contact Us</a></li>
 
         <%-- Check if user is logged in --%>
         <%
-            Boolean userLoggedIn = (Boolean) session.getAttribute("userLoggedIn");
-            if (userLoggedIn != null && userLoggedIn) {
+ 
+        if (session.getAttribute("loggedIn") != null && (Boolean) session.getAttribute("loggedIn")) {
+        	
         %>
         <!-- User is logged in, show "Sign Out" -->
         <li><a href="Logout.jsp">Sign Out</a></li>

@@ -15,9 +15,19 @@
 	--moffat-tan: #9C8F85;
 	--moffat-background: #F6F6E9;
 }
+  @font-face {
+            font-family: 'CatchyMager';
+            src: local('catchy_mager'),
+                url('../fonts/catchy_mager/catchy_mager.otf') format('opentype'),
+                url('../fonts/catchy_mager/catchy_mager.ttf') format('truetype');
+        }
 
+  @font-face {
+            font-family: 'Coco Gothic';
+            src: local('coco_gothic'),
+                url('../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf') format('truetype');
+        }
 body {
-	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: var(--moffat-background);
@@ -39,7 +49,14 @@ body {
 }
 
 .text-section h1 {
+	font-family: 'CatchyMager', Arial, sans-serif;
 	margin-bottom: 30px; /* Space between h1 and paragraph */
+}
+
+.text-section p {
+	font-family: 'Coco Gothic', Arial, sans-serif;
+    font-size: 20px; /* Adjusted paragraph text size */
+    line-height: 1.6; 
 }
 
 img {

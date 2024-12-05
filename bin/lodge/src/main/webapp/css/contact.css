@@ -1,0 +1,97 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9C8F85;
+}
+
+nav {
+    width: 100%; Ensure the navbar spans the full width
+    background-color: #333; Example: dark background for the navbar
+    color: white;
+    padding: 10px; Adjust as needed for spacing
+    position: fixed; Keep it at the top
+    top: 0;
+    left: 0;
+    z-index: 1000; Ensure it's above other elements
+}
+ */
+ :root {
+	--moffat-mocha: #503827;
+	--moffat-green: #476561;
+	--moffat-sand: #6F5E4B;
+	--moffat-white: #FBFBFC;
+	--moffat-tan: #9C8F85;
+	--moffat-background: #F6F6E9;
+}
+body {
+	background-color: var(--moffat-background);
+}
+.contactContainer {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    width: 50%; /* Adjust width as needed */
+    margin: 100px auto 0; /* Add top margin to account for the fixed navbar */
+    box-sizing: border-box;
+    background-color: #FFF; /* Optional: background color for the content */
+    padding: 20px; /* Add padding around content */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visual appeal */
+}
+
+.form-section, .info-section {
+    width: 100%; /* Ensure sections take the container's full width */
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+.form-section h2, .info-section h2 {
+    text-align: center; /* Center-align section headings */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between fields */
+}
+
+input, textarea, button {
+    width: 70%; /* Reduce input size to fit nicely */
+    margin: 0 auto; /* Center inputs */
+    padding: 10px; /* Add padding inside inputs */
+    font-size: 16px; /* Adjust font size */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+
+input::placeholder, textarea::placeholder {
+    color: #888; /* Change color of placeholder text */
+    font-style: italic; /* Style the placeholder text */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 auto; /* Center button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.info-section ul {
+    list-style-type: none; /* Remove bullets or any list item graphics */
+    padding-left: 0; /* Remove indentation */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+.info-section p {
+    margin-top: 20px; /* Add space above the paragraph */
+    text-align: center;
+}
+
+

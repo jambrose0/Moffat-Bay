@@ -24,10 +24,25 @@ nav {
 	--moffat-tan: #9C8F85;
 	--moffat-background: #F6F6E9;
 }
+
+    @font-face {
+            font-family: 'CatchyMager';
+            src: local('catchy_mager'),
+                url('../fonts/catchy_mager/catchy_mager.otf') format('opentype'),
+                url('../fonts/catchy_mager/catchy_mager.ttf') format('truetype');
+        }
+
+    @font-face {
+            font-family: 'Coco Gothic';
+            src: local('coco_gothic'),
+                url('../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf') format('truetype');
+        }
+
 body {
 	background-color: var(--moffat-background);
 }
 .contactContainer {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
     display: flex;
     flex-direction: column; /* Stack sections vertically */
     width: 50%; /* Adjust width as needed */
@@ -40,11 +55,13 @@ body {
 }
 
 .form-section, .info-section {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
     width: 100%; /* Ensure sections take the container's full width */
     margin-bottom: 20px; /* Add spacing between sections */
 }
 
 .form-section h2, .info-section h2 {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
     text-align: center; /* Center-align section headings */
 }
 
@@ -90,6 +107,7 @@ button:hover {
 }
 
 .info-section p {
+	font-family: 'Coco Gothic', Arial, sans-serif !important;
     margin-top: 20px; /* Add space above the paragraph */
     text-align: center;
 }

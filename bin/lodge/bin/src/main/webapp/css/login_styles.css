@@ -1,0 +1,79 @@
+:root{
+    --moffat-mocha: #503827;
+    --moffat-green: #476561;
+    --moffat-sand: #6F5E4B;
+    --moffat-white: #FBFBFC;
+    --moffat-tan: #9C8F85;
+    --primary-color: aquamarine;
+}
+
+@font-face {
+    font-family: catchyMager;
+    src: local("catchy_mager"),
+    url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
+    url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
+    font-family: Coco Gothic;
+    src: local("coco_gothic"),
+    url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype")
+}
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/*Login Page Styling*/
+.login-page {
+    height: 100%;
+    padding: 10px;
+}
+.login-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    opacity: 0.65;
+    z-index: -1;
+}
+.login-header {
+    text-align: center;
+    margin: 25px;
+    border: 10px;
+}
+.login-form form {
+    text-align: center;
+    margin: 15px;
+}
+.login-form form label {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+.login-form input {
+    width: 30%;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.submitBtn{
+    background-color: var(--moffat-green);
+    color: var(--moffat-white);
+    width: 20%;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    margin: 15px;
+}
+.submitBtn:hover {
+    background-color: var(--moffat-sand);
+    color: black;
+}
