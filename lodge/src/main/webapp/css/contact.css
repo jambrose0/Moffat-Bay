@@ -1,3 +1,9 @@
+/* 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+*/ 
+
 /* body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -54,23 +60,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visual appeal */
 }
 
-.form-section, .info-section {
-	font-family: 'CatchyMager', Arial, sans-serif !important;
-    width: 100%; /* Ensure sections take the container's full width */
-    margin-bottom: 20px; /* Add spacing between sections */
-}
-
-.form-section h2, .info-section h2 {
-	font-family: 'CatchyMager', Arial, sans-serif !important;
-    text-align: center; /* Center-align section headings */
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Space between fields */
-}
-
 input, textarea, button {
     width: 70%; /* Reduce input size to fit nicely */
     margin: 0 auto; /* Center inputs */
@@ -106,8 +95,12 @@ button:hover {
     text-align: center;
 }
 
+.info-section h1, h2 {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
+	text-align: center;}
+	
 .info-section p {
-	font-family: 'Coco Gothic', Arial, sans-serif !important;
+	font-family: Arial, sans-serif !important;
     margin-top: 20px; /* Add space above the paragraph */
     text-align: center;
 }

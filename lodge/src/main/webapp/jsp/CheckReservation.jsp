@@ -1,3 +1,8 @@
+<%-- 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+--%>
 <%@page import="java.sql.*"%>
 <%@page import="java.sql.DriverManager"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
