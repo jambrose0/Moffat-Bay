@@ -12,6 +12,8 @@ Marissa Lee
         return;
     }
 %>
+<%@include file="NavBar.jsp"%>
+<div class="navBar"></div> <!-- Add spacing after the navbar -->
 <html>
 <head>
 <title>Book a Room</title>
@@ -37,18 +39,21 @@ Marissa Lee
 		format("truetype")
 }
 
-body, p, ul, li {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
 	font-family: Arial, sans-serif;
-	background-color: F6F6E9;
+	background-color: #F6F6E9;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh; /* fix view */
+	display: flex;
+	flex-direction: column; 
+}
+.navBar {
+    margin-bottom: 40px; /* Add spacing after the navbar */
 }
 
 .bookingPage {
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -72,6 +77,7 @@ body {
 }
 
 .formGroup label {
+	margin-top: 20px; /*--margin for the nav bar --*/
 	display: block;
 	font-size: 16px;
 	margin-bottom: 10px;
@@ -154,7 +160,6 @@ body {
 </style>
 </head>
 <body>
-	<%@include file="NavBar.jsp"%>
 	<div class="bookingPage">
 		<h2>Book a Room</h2>
 		<form action="ReservationSummary.jsp" method="post"

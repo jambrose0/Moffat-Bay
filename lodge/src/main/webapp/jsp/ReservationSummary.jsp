@@ -149,9 +149,9 @@ Marissa Lee
             // Map roomType to roomId
             int roomId = -1;
             if ("singleQueen".equals(roomType)) {
-                roomId = 1;
-            } else if ("doubleFull".equals(roomType)) {
                 roomId = 2;
+            } else if ("doubleFull".equals(roomType)) {
+                roomId = 1;
             } else if ("doubleQueen".equals(roomType)) {
                 roomId = 3;
             } else if ("singleKing".equals(roomType)) {
