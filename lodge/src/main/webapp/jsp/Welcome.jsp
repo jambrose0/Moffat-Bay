@@ -1,3 +1,8 @@
+<%-- 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +42,7 @@
 			</div>
 			<h1>Moffat Bay Lodge</h1>
 			<div class="landingLogo">
-				<img src="../images/lodge-icon.png">
+				<img src="../images/lodge-icon.png" style="width: 200px; height: auto;">
 			</div>
 		</div>
 	</div>

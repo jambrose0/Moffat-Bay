@@ -1,3 +1,9 @@
+/* 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+*/ 
+
 :root {
     --moffat-mocha: #503827;
     --moffat-green: #476561;
@@ -6,19 +12,18 @@
     --moffat-tan: #9C8F85;
     --moffat-background: #F6F6E9;
 }
+      @font-face {
+            font-family: 'CatchyMager';
+            src: local('catchy_mager'),
+                url('../fonts/catchy_mager/catchy_mager.otf') format('opentype'),
+                url('../fonts/catchy_mager/catchy_mager.ttf') format('truetype');
+        }
 
-@font-face {
-    font-family: catchyMager;
-    src: local("catchy_mager"),
-         url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
-         url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: Coco Gothic;
-    src: local("coco_gothic"),
-         url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype");
-}
+      @font-face {
+            font-family: 'Coco Gothic';
+            src: local('coco_gothic'),
+                url('../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf') format('truetype');
+        }
 
 body, p, ul, li {
     margin: 0;
@@ -27,7 +32,7 @@ body, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Coco Gothic', Arial, sans-serif !important;
 }
 .attractionsContainer {
 	background-color: var(--moffat-background);
@@ -38,6 +43,7 @@ body {
 	flex-direction: column;
 }
 .attractionsContainer h2 {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
 	text-align: center;
 	font-size: 28px;
 	color: var(--moffat-sand);
@@ -64,6 +70,7 @@ body {
 	
 }
 .hero-title {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
 	font-size: 1.5rem;
 	color: var(--moffat-mocha);
 	margin-bottom: 10px;

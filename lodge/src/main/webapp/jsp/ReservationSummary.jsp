@@ -1,3 +1,8 @@
+<%-- 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.sql.*" %> 
 <%@ page import="java.time.LocalDate, java.time.temporal.ChronoUnit" %>
@@ -144,9 +149,9 @@
             // Map roomType to roomId
             int roomId = -1;
             if ("singleQueen".equals(roomType)) {
-                roomId = 1;
-            } else if ("doubleFull".equals(roomType)) {
                 roomId = 2;
+            } else if ("doubleFull".equals(roomType)) {
+                roomId = 1;
             } else if ("doubleQueen".equals(roomType)) {
                 roomId = 3;
             } else if ("singleKing".equals(roomType)) {

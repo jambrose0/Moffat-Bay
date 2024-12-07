@@ -1,3 +1,8 @@
+<%-- 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
@@ -8,6 +13,19 @@
 </head>
 <body>
 	<%@include file="NavBar.jsp"%>
-	<%@include file="Welcome.jsp"%>
+	<div class="content">
+        <% 
+            // logout message
+            String logout = request.getParameter("logout");
+            if ("success".equals(logout)) {
+        %>
+        <div class="alert alert-success" style="margin: 20px; padding: 15px; border: 1px solid green; background-color: #e6ffe6; color: green; text-align: center;">
+            You have been successfully logged out.
+        </div>
+        <% 
+            }
+        %>
+   <%@include file="Welcome.jsp"%>
+   </div>
 </body>
 </html>

@@ -1,3 +1,8 @@
+/* 
+Jacob Ambrose
+Jackie Scott
+Marissa Lee
+*/ 
 :root{
     --moffat-mocha: #503827;
     --moffat-green: #476561;
@@ -6,27 +11,28 @@
     --moffat-tan: #9C8F85;
     --primary-color: aquamarine;
 }
+        @font-face {
+            font-family: 'CatchyMager';
+            src: local('catchy_mager'),
+                url('../fonts/catchy_mager/catchy_mager.otf') format('opentype'),
+                url('../fonts/catchy_mager/catchy_mager.ttf') format('truetype');
+        }
 
-@font-face {
-    font-family: catchyMager;
-    src: local("catchy_mager"),
-    url("../fonts/catchy_mager/catchy_mager.otf") format("opentype"),
-    url("../fonts/catchy_mager/catchy_mager.ttf") format("truetype");
-    font-family: Coco Gothic;
-    src: local("coco_gothic"),
-    url("../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf") format("truetype")
-}
+        @font-face {
+            font-family: 'Coco Gothic';
+            src: local('coco_gothic'),
+                url('../fonts/coco_gothic/Coco-Gothic-Regular-trial.ttf') format('truetype');
+        }
+
 body, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
 /*Login Page Styling*/
 .login-page {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
     height: 100%;
     padding: 10px;
 }
@@ -39,16 +45,19 @@ body {
     bottom: 0;
     background-image: url("../images/login-background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: cover;
+    background-position: center;
     opacity: 0.65;
     z-index: -1;
 }
 .login-header {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
     text-align: center;
     margin: 25px;
     border: 10px;
 }
 .login-form form {
+	font-family: 'CatchyMager', Arial, sans-serif !important;
     text-align: center;
     margin: 15px;
 }
