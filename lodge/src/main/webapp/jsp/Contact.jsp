@@ -7,7 +7,6 @@ Marissa Lee
 <!DOCTYPE html>
 <html>
 <head>
-<%@ include file="NavBar.jsp"%>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
