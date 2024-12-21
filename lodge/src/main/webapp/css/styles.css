@@ -33,6 +33,7 @@ body, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
+    background-color: var(--moffat-background);
 }
 
 .header {
