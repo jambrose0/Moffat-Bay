@@ -8,7 +8,7 @@ Marissa Lee
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
-<link rel="stylesheet" href="../css/check_reservation.css">
+  <link rel="stylesheet" href="../css/check_page.css">  
 <title>Check Reservation Page</title>
 </head>
 <body>
