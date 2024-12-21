@@ -60,7 +60,7 @@ Marissa Lee
         }
 
         form {
-            font-family: 'Coco Gothic', Arial, sans-serif;
+            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
             gap: 15px;
@@ -183,21 +183,36 @@ Marissa Lee
     %>
 
     <%-- Registration form --%>
+    <%-- Added password validation--%>
     <form method="post">
         <label for="first_name">First Name</label>
         <input type="text" name="first_name" id="first_name" required>
 
         <label for="last_name">Last Name</label>
-        <input type="text" name="last_name" id="last_name" required>
+       <input type="text" name="last_name" id="last_name" required>
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" required
+        placeholder="Enter a valid email address">
 
         <label for="phone">Phone</label>
-        <input type="tel" name="phone" id="phone" required>
+        <input type="tel" name="phone" id="phone" required placeholder="Enter a phone number">
 
         <label for="password">Password</label>
-        <input type="password" name="password" id="password" required>
+        <input type="password" name="password" id="password" required
+        placeholder="Enter a Password" 
+        pattern="(?=.*[A-Z])(?=.*\d).{6,}" 
+        title="Password must be at least 6 characters long, include 1 uppercase letter, and 1 number." 
+        required>
+        
+    <p class="password-requirements">
+        Password must:
+        <ul>
+            <li>Be at least 6 characters long</li>
+            <li>Include at least 1 uppercase letter</li>
+            <li>Include at least 1 number</li>
+        </ul>
+    </p>
 
         <button type="submit">Register</button>
     </form>
